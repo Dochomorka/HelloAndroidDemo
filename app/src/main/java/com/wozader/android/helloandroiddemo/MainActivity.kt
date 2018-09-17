@@ -2,6 +2,7 @@ package com.wozader.android.helloandroiddemo
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,5 +12,7 @@ class MainActivity : AppCompatActivity() {
 
 
         //onGit
+        // show message on the screen
+        Toast.makeText(applicationContext,"Newly added thingy...",Toast.LENGTH_SHORT).show()
     }
 }

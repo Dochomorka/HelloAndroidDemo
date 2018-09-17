@@ -10,7 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         //onGit
         // show message on the screen
         Toast.makeText(applicationContext,"Newly added thingy...",Toast.LENGTH_SHORT).show()

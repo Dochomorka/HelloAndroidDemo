@@ -9,11 +9,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        Toast.makeText(applicationContext, "Newly added thingy...", Toast.LENGTH_SHORT).show()
 
-        //onGit
-        // show message on the screen
-        Toast.makeText(applicationContext,"Newly added thingy...",Toast.LENGTH_SHORT).show()
 
-        // make some changes as well
+        // to commit to the git hub repo
+        // steps
+        // 1, please press 1
+        // 2, please hit enter
+        // 3, please add something to the editor and make commits
+
+
     }
 }
